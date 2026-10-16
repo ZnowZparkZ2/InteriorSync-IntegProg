@@ -30,13 +30,6 @@ DESIGN FIDELITY
 - The original used lucide-react icon components. These have been replaced with locally
   implemented SVG line icons. They may differ slightly in their exact stroke geometry.
 
-MISSING ORIGINAL IMAGE ASSETS
-The uploaded src(2).zip did NOT include these files referenced by CSS:
-   /login-interior.png
-   /dashboard-banner.jpg
-Accordingly, the original gradient/overlay remains, but the photographs cannot display.
-To match the design pixel-for-pixel, supply those two exact original images.
-
 LIMITATIONS
 - This is an OFFLINE FRONTEND PROTOTYPE, not the production backend.
 - Login is a demo role selector, not real authentication or access control.
