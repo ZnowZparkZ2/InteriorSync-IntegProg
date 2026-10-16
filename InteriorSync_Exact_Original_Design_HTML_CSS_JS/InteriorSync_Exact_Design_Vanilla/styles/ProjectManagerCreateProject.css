@@ -1,0 +1,644 @@
+.manager-create-main {
+  width: 100%;
+  padding:
+    24px
+    32px
+    44px;
+}
+
+.manager-create-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-bottom: 20px;
+  padding: 0;
+
+  border: none;
+  background: transparent;
+
+  color: #796456;
+
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.manager-create-heading {
+  margin-bottom: 22px;
+}
+
+.manager-create-heading p {
+  margin:
+    0
+    0
+    5px;
+
+  color: #b54d42;
+
+  font-size: 0.7rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.manager-create-heading h1 {
+  margin:
+    0
+    0
+    5px;
+
+  color: #443229;
+
+  font-size: 1.85rem;
+}
+
+.manager-create-heading span {
+  color: #a28b74;
+
+  font-size: 0.76rem;
+}
+
+.manager-create-error {
+  margin-bottom: 16px;
+
+  padding:
+    12px
+    14px;
+
+  border:
+    1px solid #e8c0ba;
+
+  border-radius: 10px;
+
+  background: #fff1ef;
+
+  color: #a44b43;
+
+  font-size: 0.67rem;
+}
+
+.manager-create-success {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+
+  margin-bottom: 18px;
+
+  padding:
+    12px
+    14px;
+
+  border:
+    1px solid #cadac5;
+
+  border-radius: 10px;
+
+  background: #f0f6ed;
+
+  color: #5b7553;
+}
+
+.manager-create-success > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.manager-create-success strong {
+  font-size: 0.67rem;
+}
+
+.manager-create-success span {
+  font-size: 0.61rem;
+}
+
+/* LAYOUT */
+
+.manager-create-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.55fr)
+    minmax(320px, 0.7fr);
+
+  gap: 17px;
+
+  align-items: start;
+}
+
+.manager-create-form-card,
+.manager-create-assignment-card {
+  overflow: hidden;
+
+  border:
+    1px solid #eadfce;
+
+  border-radius: 16px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0
+    5px
+    15px
+    rgba(
+      84,
+      58,
+      46,
+      0.06
+    );
+}
+
+.manager-create-card-heading {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 16px;
+
+  padding:
+    16px
+    18px;
+
+  border-bottom:
+    1px solid #ebddcc;
+
+  background: #f8eddd;
+}
+
+.manager-create-card-heading h2 {
+  margin:
+    0
+    0
+    4px;
+
+  color: #4b382f;
+
+  font-size: 0.86rem;
+}
+
+.manager-create-card-heading span {
+  color: #a08a73;
+
+  font-size: 0.6rem;
+}
+
+.manager-create-card-heading > svg {
+  color: #9c8065;
+}
+
+/* FORM */
+
+.manager-create-form-body {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap:
+    17px
+    16px;
+
+  padding:
+    20px;
+}
+
+.manager-create-field {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.manager-create-field-full {
+  grid-column:
+    1 / -1;
+}
+
+.manager-create-field > span {
+  color: #725a4b;
+
+  font-size: 0.63rem;
+  font-weight: 700;
+}
+
+.manager-create-field input,
+.manager-create-field select,
+.manager-create-field textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border:
+    1px solid #e4ceb8;
+
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  color: #5b463b;
+
+  font: inherit;
+  font-size: 0.68rem;
+
+  outline: none;
+
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.manager-create-field input,
+.manager-create-field select {
+  min-height: 43px;
+
+  padding:
+    0
+    12px;
+}
+
+.manager-create-field textarea {
+  min-height: 145px;
+
+  resize: vertical;
+
+  padding:
+    12px;
+}
+
+.manager-create-field input:focus,
+.manager-create-field select:focus,
+.manager-create-field textarea:focus {
+  border-color: #bd6658;
+
+  box-shadow:
+    0
+    0
+    0
+    3px
+    rgba(
+      181,
+      77,
+      67,
+      0.08
+    );
+}
+
+.manager-create-field small {
+  align-self: flex-end;
+
+  color: #af9982;
+
+  font-size: 0.54rem;
+}
+
+/* SIDE */
+
+.manager-create-side {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 13px;
+}
+
+.manager-create-assignment-body {
+  display: flex;
+
+  flex-direction: column;
+
+  padding:
+    6px
+    17px;
+}
+
+.manager-create-assignment-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  padding:
+    13px
+    0;
+
+  border-bottom:
+    1px solid #eee2d5;
+}
+
+.manager-create-assignment-row:last-child {
+  border-bottom: none;
+}
+
+.manager-create-assignment-row > div {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  border-radius: 10px;
+
+  background: #efe1ce;
+
+  color: #92765d;
+}
+
+.manager-create-assignment-row > span {
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+.manager-create-assignment-row small {
+  color: #a18a73;
+
+  font-size: 0.53rem;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.manager-create-assignment-row strong {
+  overflow: hidden;
+
+  color: #513d33;
+
+  font-size: 0.66rem;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.manager-create-assignment-row em {
+  overflow: hidden;
+
+  color: #aa947e;
+
+  font-size: 0.55rem;
+  font-style: normal;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.manager-create-behavior-card,
+.manager-create-warning-card {
+  padding:
+    13px
+    14px;
+
+  border:
+    1px solid #eadbc9;
+
+  border-radius: 12px;
+
+  background: #f8f2e9;
+}
+
+.manager-create-behavior-card strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #745d4c;
+
+  font-size: 0.61rem;
+}
+
+.manager-create-behavior-card p {
+  margin: 0;
+
+  color: #8f7965;
+
+  font-size: 0.59rem;
+
+  line-height: 1.5;
+}
+
+.manager-create-warning-card {
+  border-color: #ebc7bf;
+
+  background: #fff3f0;
+
+  color: #9b5047;
+
+  font-size: 0.6rem;
+
+  line-height: 1.5;
+}
+
+/* ACTIONS */
+
+.manager-create-actions {
+  display: flex;
+
+  justify-content: flex-end;
+
+  gap: 9px;
+
+  margin-top: 4px;
+}
+
+.manager-create-actions button,
+.manager-created-project-actions button {
+  min-height: 40px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding:
+    0
+    14px;
+
+  border-radius: 9px;
+
+  font: inherit;
+  font-size: 0.63rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.manager-create-cancel-button,
+.manager-create-secondary-button {
+  border:
+    1px solid #e1cdb8;
+
+  background: #ffffff;
+
+  color: #765e4f;
+}
+
+.manager-create-submit-button,
+.manager-create-primary-button {
+  border: none;
+
+  background: #b54d43;
+
+  color: #ffffff;
+}
+
+.manager-create-submit-button:disabled,
+.manager-create-cancel-button:disabled {
+  opacity: 0.58;
+
+  cursor: not-allowed;
+}
+
+/* SUCCESS CARD */
+
+.manager-created-project-card {
+  min-height: 430px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 38px;
+
+  border:
+    1px solid #e8dccd;
+
+  border-radius: 17px;
+
+  background: #ffffff;
+
+  text-align: center;
+
+  box-shadow:
+    0
+    5px
+    16px
+    rgba(
+      83,
+      57,
+      45,
+      0.06
+    );
+}
+
+.manager-created-project-icon {
+  width: 66px;
+  height: 66px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 17px;
+
+  border-radius: 17px;
+
+  background: #e5efdf;
+
+  color: #608056;
+}
+
+.manager-created-project-card > p {
+  margin:
+    0
+    0
+    5px;
+
+  color: #b44c42;
+
+  font-size: 0.66rem;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.manager-created-project-card h2 {
+  margin:
+    0
+    0
+    8px;
+
+  color: #49362e;
+
+  font-size: 1.4rem;
+}
+
+.manager-created-project-card > span {
+  max-width: 480px;
+
+  color: #967f69;
+
+  font-size: 0.67rem;
+
+  line-height: 1.55;
+}
+
+.manager-created-project-actions {
+  display: flex;
+
+  gap: 9px;
+
+  margin-top: 22px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 980px) {
+  .manager-create-layout {
+    grid-template-columns:
+      1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .manager-create-main {
+    padding:
+      22px
+      18px
+      38px;
+  }
+
+  .manager-create-form-body {
+    grid-template-columns:
+      1fr;
+  }
+
+  .manager-create-field-full {
+    grid-column:
+      auto;
+  }
+
+  .manager-create-actions,
+  .manager-created-project-actions {
+    flex-direction: column;
+  }
+
+  .manager-create-actions button,
+  .manager-created-project-actions button {
+    width: 100%;
+  }
+}

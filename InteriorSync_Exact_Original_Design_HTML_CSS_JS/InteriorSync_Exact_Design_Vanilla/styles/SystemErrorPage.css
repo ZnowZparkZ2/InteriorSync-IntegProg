@@ -1,0 +1,45 @@
+.system-error-page {
+  min-height: 100vh;
+
+  padding:
+    28px
+    35px
+    45px;
+
+  background: #f8f6f0;
+}
+
+.system-error-brand {
+  margin-bottom: 30px;
+
+  color: #44332c;
+
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.system-error-container {
+  width: min(
+    760px,
+    100%
+  );
+
+  margin:
+    7vh
+    auto
+    0;
+}
+
+@media (max-width: 600px) {
+
+  .system-error-page {
+    padding:
+      22px
+      18px
+      30px;
+  }
+
+  .system-error-container {
+    margin-top: 4vh;
+  }
+}
