@@ -1,7 +1,6 @@
 INTERIORSYNC — SOURCE-PRESERVING HTML / CSS / JAVASCRIPT FRONTEND
 ==================================================================
 
-Built from the user's original "src(2).zip" (not from the earlier simplified conversions).
 
 HOW TO RUN
 1. Extract ZIP.
